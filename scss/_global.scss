@@ -1,0 +1,57 @@
+html,
+body {
+	height: 100%;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 2;
+	color: #564E4E;
+	overflow-x: hidden;
+}
+body {
+
+    &.locked {
+        overflow: hidden;
+    }
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-weight: 500;
+	font-style: normal;
+	cursor: default;	
+}
+p{
+	cursor: default;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+.main {
+	flex: 1 0 auto;
+}
+.footer {
+	flex: 0 0 auto;
+}
+
+.container{
+  max-width: 1790px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+
+
+
+
+
+
+
+
